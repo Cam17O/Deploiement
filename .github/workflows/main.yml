@@ -37,7 +37,7 @@ jobs:
           SSH_HOST: $ {{ secrets.SSH_HOST }}
           SSH_USER: $ {{ secrets.SSH_USER }}
         run: |
-          ssh $SSH_USER@SSH_HOST 'cd /var/www/html/ && git fetch && git pull'
+          ssh $SSH_USER@SSH_HOST 'cd /var/www/html/Deploiement && git fetch && git pull'
       
 
 # Connexion SSH à la VM
