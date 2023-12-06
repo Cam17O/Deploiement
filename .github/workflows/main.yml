@@ -29,8 +29,6 @@ jobs:
 
           # Le fichier id_rsa DOIT avoir les bons droits
           chmod 600 ~/.ssh/id_rsa          
-          
-          END
 
       - name: "Connexion au serveur de prod"
         env:
