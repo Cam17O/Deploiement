@@ -5,7 +5,7 @@ name: "Déploiement auto push branche main"
 on: 
   push: 
     branches: 
-      - main
+      - master
 
 # créer instance Ubuntu
 jobs:
